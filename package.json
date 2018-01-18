@@ -1,24 +1,25 @@
 {
-  "name": "gulp-encrypt",
+  "name": "gulp-file-encrypt",
   "version": "1.0.0",
-  "description": "数据加密",
+  "description": "文件加密",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penyuying/gulp-file-encrypt.git"
+  },
   "keywords": [
     "md5",
     "des",
-    "ads"
+    "ads",
+    "sha1"
   ],
-  "dependencies": {
-    "gulp-util": "^3.0.7",
-    "through2": "^2.0.0"
+  "author": "penyuying",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penyuying/gulp-file-encrypt/issues"
   },
-  "peerDependencies": {
-    "gulp-util": "^3.0.7",
-    "through2": "^2.0.0"
-  },
-  "author": "penyu",
-  "license": "MIT"
+  "homepage": "https://github.com/penyuying/gulp-file-encrypt#readme"
 }
